@@ -4,10 +4,10 @@ services:
     build:
       context: ./MySQL
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: test_db
-      MYSQL_USER: docker
-      MYSQL_PASSWORD: docker
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: Anew_api_employee
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 1234
     container_name: golang_db
     ports:
       - "30306:3306"
