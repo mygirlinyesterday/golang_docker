@@ -19,7 +19,7 @@ services:
       - .:/goWork/src/github.com/go_docker/Go"
     container_name: golang_app
     ports:
-      - "8080:8080"
+      - "3000:3000"
     tty: true
     depends_on:
       - db
